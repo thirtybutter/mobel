@@ -8,25 +8,94 @@
 			*{margin:0;padding: 0;}
 			html{width: 100%;height: 100%;}
 			body{width: 100%;height: 100%;}
-			header{width: 100%;height:40px;position: fixed;background: lightcoral;z-index: 99;}
-			section{width: 100%;height: 100%;padding-top: 40px;overflow: auto;position: relative;}
-			section li{list-style: none;position: relative;width: 100%;height: 50px;line-height: 50px;}
-			section li span{display:inline-block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;box-sizing: border-box;padding-right: 50px;padding-left: 30px;}
-			section li p{display:inline-block;position: absolute;right: 0;height: 50px;line-height: 50px;width: 50px;text-align: right;}
-			footer{width: 100%;height: 40px;position: fixed;bottom: 0;background: lavender;z-index: 99;}
+			header{width: 100%;height:50px;position: fixed;background: linear-gradient(45deg,#4657ff,#7e79dd);z-index: 99;text-align: center;color: white;font: 17px/50px "微软雅黑";}
+			header div{width: 30px;height: 30px;border-radius: 50%;background: white;position: absolute;top: 10px;left: 16px;}
+			section{width: 100%;height: 100%;padding-top:50px;overflow: auto;position: relative;padding-bottom: 60px;box-sizing: border-box;}
+			section::-webkit-scrollbar{width: 0px;}
+			section li{list-style: none;position: relative;width: 100%;height: 60px;border-bottom: 1px solid #eee;box-sizing:border-box;padding-top: 8px;}
+			section div{position: absolute;top:10px;left:10px;width: 40px;height: 40px;border-radius: 50%;background: #E6E6FA;}
+			section li p{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;box-sizing: border-box;padding-right: 50px;padding-left: 60px;}
+			section li p:nth-of-type(1){font: 16px/23px "微软雅黑";}
+			section li p:nth-of-type(2){font: 14px/20px "微软雅黑";color: #555;}
+			section li span{display:inline-block;position: absolute;right: 7px;top:0;height: 60px;width: 50px;text-align: right;font: 10px/42px "微软雅黑";color: #aaa}
+			footer{width: 100%;height: 50px;position: fixed;bottom: 0;background: linear-gradient(-45deg,#4657ff,#7e79dd);z-index: 99;display: flex;flex-direction: row;justify-content: space-around;padding-top: 10px;box-sizing: border-box;}
+			footer li{list-style: none;width: 30px;height: 30px;float: left;background: white;}
 		</style>
 	</head>
 	<body>
-		<header>顶部</header>
+		<header>
+			消 &nbsp; 息
+			<div id="">
+				
+			</div>
+		</header>
 		<section>
-			<li><span>1231zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz</span><p>16:06</p></li>
-			<li><span>1232</span></li>
-			<li><span>1233</span></li>
-			<li><span>1234</span></li>
-			<li><span>1235</span></li>
-			<li><span>1236</span></li>
-			<li><span>1237</span></li>
+			<li>
+				<div></div>
+				<p>ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ</p>
+				<p>明天下午打球，来不来，约在人民广场篮球场，不用带水</p>
+				<span>16:06</span>
+			</li>
+			<li>
+				<div></div>
+				<p>小美</p>
+				<p>等我一下</p>
+				<span>15:25</span>
+			</li>
+			<li>
+				<div></div>
+				<p>好吃懒做，白日做梦群</p>
+				<p>[群文件]接受</p>
+				<span>12:16</span>
+			</li>
+			<li>
+				<div></div>
+				<p>死党一</p>
+				<p>帮我带午饭，我在医务室，走不了了</p>
+				<span>11:06</span>
+			</li>
+			<li>
+				<div></div>
+				<p>死党二</p>
+				<p>明天下午打球，来不来，约在人民广场篮球场，不用带水</p>
+				<span>昨天</span>
+			</li>
+			<li>
+				<div></div>
+				<p>死党三</p>
+				<p>明天下午打球，来不来，约在人民广场篮球场，不用带水</p>
+				<span>星期六</span>
+			</li>
+			<li>
+				<div></div>
+				<p>死党四</p>
+				<p>明天下午打球，来不来，约在人民广场篮球场，不用带水</p>
+				<span>星期六</span>
+			</li>
+			<li>
+				<div></div>
+				<p>小美他爸</p>
+				<p>[系统]我现在是你的好友了，可以开始对话</p>
+				<span>星期六</span>
+			</li>
+			<li>
+				<div></div>
+				<p>ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ</p>
+				<p>明天下午打球，来不来，约在人民广场篮球场，不用带水</p>
+				<span>星期六</span>
+			</li>
+			<li>
+				<div></div>
+				<p>ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ</p>
+				<p>明天下午打球，来不来，约在人民广场篮球场，不用带水</p>
+				<span>16:06</span>
+			</li>
+			
 		</section>
-		<footer>底部</footer>
+		<footer>
+			<li></li>
+			<li></li>
+			<li></li>
+		</footer>
 	</body>
 </html>
